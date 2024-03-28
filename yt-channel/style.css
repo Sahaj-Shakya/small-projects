@@ -12,21 +12,11 @@ body{
 }
 
 .search{
-    padding: 20px;
+    padding: 10px;
+    
 }
 
-.table{
-    padding: 20px;
-    align-items: center;
-    display: flex;
-    justify-content: center;
- 
+.img{
+    padding: 10px;
 }
 
-th{
-    padding: 20px;
-}
-
-td{
-    padding: 20px;
-}

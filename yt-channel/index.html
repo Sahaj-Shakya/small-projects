@@ -3,32 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Project</title>
+    <title>Search Channels</title>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <div class="search">
-      <form action="/search" method="GET" align="center" >
-        <label for="search"><b>Search a channel:</b></label>
-        <input type="text" id="search" name="q" />
-        <button type="submit">Search</button>
-      </form>
+    <div align="center" class="img">
+      <img src="yt.png" alt="image">
     </div>
-    <div class="table">
-        <table align="center" cellpadding="10px" cellspacing="0px" border="1px">
-            <tr>
-                <th>Logo</th>
-                <th>Subscribers</th>
-                <th>Videos</th>
-                <th>Views</th>
-            </tr>
-            <tr>
-                <td><img src="" alt="image"></td>
-                <td>Subs</td>
-                <td>No. of vids</td>
-                <td>No. of views</td>
-            </tr>
-        </table>
+    <div align="center" class="search" >
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Enter Channel" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
     </div>
   </body>
 </html>
